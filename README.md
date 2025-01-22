@@ -1,4 +1,4 @@
-This is a project template for a web application using ['Next.js'](https://nextjs.org) and [`shadcn`](https://ui.shadcn.com).
+This is a project template for a web application using [`Next.js`](https://nextjs.org) and [`shadcn`](https://ui.shadcn.com).
 
 ## Getting Started
 
