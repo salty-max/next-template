@@ -17,12 +17,15 @@ const eslintConfig = [
     ],
     plugins: ["prettier", "jsx-a11y"],
     rules: {
+      "@typescript-eslint/no-explicit-any": "warn",
       "@typescript-eslint/no-unused-vars": [
         "warn",
         {
           argsIgnorePattern: "^_",
+          ignoreRestSiblings: true,
         },
       ],
+      "import/named": "off",
       "jsx-a11y/alt-text": "warn",
       "jsx-a11y/aria-props": "warn",
       "jsx-a11y/aria-proptypes": "warn",
